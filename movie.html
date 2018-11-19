@@ -1,0 +1,114 @@
+<html>
+<head>
+<script>
+	var a=1000;
+	function bal()
+	{
+	if (confirm("50 will be debited!")) {
+    	txt = "You pressed OK!";
+	a=a-50;
+	}
+	 else 
+	{
+	    txt = "You pressed Cancel!";
+	return false;
+	}
+	alert(""-a);
+	}
+function ball()
+	{
+		alert(""-a);
+	}
+
+</script>
+<body>
+<section id="screen1"><nav>
+		<ul>
+   			  <li><a href="E:\project\home1.html"">Home</a></li>
+		 	
+		 	  <li><a href="E:\project\movie.html">Movies</a></li>
+		 	  
+		 	  <li><a href="E:\project\contact.html">Contact</a></li>
+
+ 		</ul>			
+                                     <br>
+<marquee scrollamount="15" >
+<h3> Each Movie 50 rs </h3>
+</marquee>
+<br>	<br>
+<div id="n">
+<a href ="h.html" target="blank" ><img src="E:/project/h.jpg" height=200px width=300px  onclick='return bal() '></a>&emsp;&emsp;
+<a href ="p.html" target="blank"><img src="E:/project/p.jpg" height=200px width=300px onclick='return bal() '></a>&emsp;&emsp;
+<a href ="a.html" target="blank"><img src="E:/project/a.jfif" height=200px width=300px onclick='return bal() '></a>&emsp;&emsp;<br><br><br><br>
+<a href ="s.html" target="blank"><img src="E:/project/s.jpg"height=200px width=300px onclick='return bal() '></a>&emsp;&emsp;
+<a href ="g.html" target="blank"><img src="E:/project/g.jpg"height=200px width=300px onclick='return bal() '></a>&emsp;&emsp;
+<a href ="k.html" target="blank"><img src="E:/project/k.jpg"height=200px width=300px onclick='return bal() '></a>&emsp;&emsp;
+</div>
+<form >
+Available Balance : <input type="submit" value="check" onclick="ball()">
+</form> 
+</nav>
+</section>
+</body>
+</head>
+<style>
+ 
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+/* This class is added on scroll */
+fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+body { 
+	color: #fff;
+	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Navigation Settings */
+nav {
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	background: #fff;
+}
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+}
+nav li a {
+	color: #757575;
+	text-transform: uppercase;
+ }
+section {
+	
+                   center;
+	height: 100vh;
+}
+
+/* Screens Settings */
+
+#screen1 { 
+	background: #A73C00;
+                   height : 100%;
+}
+.container
+{
+top : 90px;
+}
+@media only screen and (max-width: 520px) {
+nav li {
+	padding: 24px 4px;
+}
+
+nav li a {
+	font-size: 14px;
+}
+}
+</style>
+</html>

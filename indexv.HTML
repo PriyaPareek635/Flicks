@@ -1,0 +1,127 @@
+<html>
+<head><title>MOVIE RENTAL SYSTEM</title>
+<style>
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+
+body {
+	color: #fff;
+	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Navigation Settings */
+nav {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background: #fff;
+}
+
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+}
+
+nav li a {
+	color: #757575;
+	text-transform: uppercase;
+}
+
+section {
+	height: 100vh;
+}
+
+/* Screens Settings */
+#screen1 {
+	background: #A73C00;
+}
+
+#screen1 h1 {
+	padding-top: 170px;
+font-size: 70px;
+}
+
+
+}
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 24px 4px;
+	}
+
+	nav li a {
+		font-size: 14px;
+	}
+
+}
+ .button {
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #757575;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+</style>
+</head>
+<body>
+<section id="screen1"><h1>WELCOME</h1>
+<form method="get" action="E:\project\home1.html">
+<center><br><br><button class="button"><span>NEXT</span></button>
+</center>	</form>
+	<nav>
+		 <ul>
+   			  <li><a href="E:\project\home1.html">Home</a></li>
+		 	  <li><a href="C:\wamp\www\project\login.html">Login</a></li>
+		 	  <li><a href="E:\project\movie.html">Movies</a></li>
+		 	  <li><a href="C:\wamp\www\project\regis.html">Registration</a></li>
+		 	  <li><a href="E:\project\contact.html">Contact</a></li>
+
+ 		</ul>
+	</nav>
+
+</section>
+</body>
+</html>
